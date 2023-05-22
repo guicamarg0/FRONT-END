@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin:0 auto;
+    padding: 0 2%;
+}
+header{
+    background-color: rgb(255, 136, 0);
+    padding: 20px 0;
+    align-items: center;
+}
+.menu a{
+  color: black;
+  right: 0%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+  font-size: larger;
+  text-decoration: none;
+}
+.menu{
+    padding: 70px;
+   position: absolute;
+   top: 25;
+   right: 0;
+  
+}
+.Produto:hover{
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+}
+.Promo:hover{
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+}
+.Carro:hover{
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+}
+.Cadastro:hover{
+    box-shadow:2px 2px 2px 2px rgb(0, 0, 0);
+}
